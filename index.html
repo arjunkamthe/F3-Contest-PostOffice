@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Post Office Application</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+        <div id="right">
+           
+                <div id="headihg">Post Office Application</div>
+                <div id="disc">This Application Allows you to extract information <br> about
+                             the nearest Post Offices,<br> based on your location.</div>
+                <img src="./images/post.png" alt="" id="logo" >
+         
+        </div>
+        <div id="left">
+
+            <div id="btnDiv">
+                <h1>Your Current IP Address is <br><span id= "spn1"></span></h1>
+                <button onclick="ShowData()">Get Start</button>
+              </div>
+
+        </div>
+    </div>
+
+    <div id="dataDiv">
+     
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
